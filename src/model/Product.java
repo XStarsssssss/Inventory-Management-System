@@ -18,7 +18,6 @@ public class Product extends Item {
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void increaseQuantity(int qty) { this.quantity += qty; }
     public void decreaseQuantity(int qty) { this.quantity -= qty; }
-
     public double getPrice() { return price; }
     public Category getCategory() { return category; }
     public SubCategory getSubCategory() { return subCategory; }
